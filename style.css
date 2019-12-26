@@ -1,0 +1,39 @@
+body {
+  margin: 0px 0px;
+}
+
+header {
+  background-color: rgb(223, 169, 223);
+  height: 60px;
+  font-family: 'Lobster', cursive;
+  font-size: 3rem;
+  padding: 50px;
+  text-align: center;
+}
+
+.container {
+  align-items: center;
+}
+
+#quiz{
+  margin: 20px;
+  text-align: center;
+}
+
+.questions {
+  list-style-type: none;
+
+}
+
+#img1 {
+  align-items: center;
+}
+
+#col2 {
+  text-align: center;
+  padding: 30px;
+}
+
+label {
+  text-align: left;
+}
