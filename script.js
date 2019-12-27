@@ -16,28 +16,87 @@ button.addEventListener("click", function (event) {
   document.getElementById("img").setAttribute("width", "300px");
   
   col1.innerHTML = "";
+
   if (randomNumber === imageArray[0]) {
   h3.innerHTML = "You got Gary Porter";
-  }
+  var resetButton = document.createElement("button");
+  resetButton.innerHTML = "Try again";
+  resetButton.setAttribute("class", "ui button");
+  resetButton.setAttribute("onClick", "window.location.reload();");
+  resetButton.innerHTML = "Start Over";
+  var rstBtn = document.getElementById("reset");
+  rstBtn.appendChild(resetButton); 
+}
   if (randomNumber === imageArray[1]) {
   h3.innerHTML = "You got Globby";
-  }
+  var resetButton = document.createElement("button");
+  resetButton.innerHTML = "Try again";
+  resetButton.setAttribute("class", "ui button");
+  resetButton.setAttribute("onClick", "window.location.reload();");
+  resetButton.innerHTML = "Start Over";
+  var rstBtn = document.getElementById("reset");
+  rstBtn.appendChild(resetButton);
+}
   if (randomNumber === imageArray[2]) {
     h3.innerHTML = "You got Jandalf";
-  }
+    var resetButton = document.createElement("button");
+    resetButton.innerHTML = "Try again";
+    resetButton.setAttribute("class", "ui button");
+    resetButton.setAttribute("onClick", "window.location.reload();");
+    resetButton.innerHTML = "Start Over";
+    var rstBtn = document.getElementById("reset");
+    rstBtn.appendChild(resetButton);
+}
   if (randomNumber === imageArray[3]) {
   h3.innerHTML = "You got Ugly Frodo";
-  }
+  var resetButton = document.createElement("button");
+  resetButton.innerHTML = "Try again";
+  resetButton.setAttribute("class", "ui button");
+  resetButton.setAttribute("onClick", "window.location.reload();");
+  resetButton.innerHTML = "Start Over";
+  var rstBtn = document.getElementById("reset");
+  rstBtn.appendChild(resetButton);
+}
   if (randomNumber === imageArray[4]) {
   h3.innerHTML = "You got Goljim";
-  }
+  var resetButton = document.createElement("button");
+  resetButton.innerHTML = "Try again";
+  resetButton.setAttribute("class", "ui button");
+  resetButton.setAttribute("onClick", "window.location.reload();");
+  resetButton.innerHTML = "Start Over";
+  var rstBtn = document.getElementById("reset");
+  rstBtn.appendChild(resetButton);
+}
   if (randomNumber === imageArray[5]) {
   h3.innerHTML = "You got Jewbacca";
-  }
+  var resetButton = document.createElement("button");
+  resetButton.innerHTML = "Try again";
+  resetButton.setAttribute("class", "ui button");
+  resetButton.setAttribute("onClick", "window.location.reload();");
+  resetButton.innerHTML = "Start Over";
+  var rstBtn = document.getElementById("reset");
+  rstBtn.appendChild(resetButton);
+}
   if (randomNumber === imageArray[6]) {
   h3.innerHTML = "You got Rolldemort";
+  var resetButton = document.createElement("button");
+  resetButton.innerHTML = "Try again";
+  resetButton.setAttribute("class", "ui button");
+  resetButton.setAttribute("onClick", "window.location.reload();");
+  resetButton.innerHTML = "Start Over";
+  var rstBtn = document.getElementById("reset");
+  rstBtn.appendChild(resetButton);
   }
 });
+
+// var resetButton = document.createElement("button");
+// resetButton.innerHTML = "Try again";
+// resetButton.setAttribute("class", "ui button");
+// resetButton.setAttribute("onClick", "window.location.reload();");
+// resetButton.innerHTML = "Start Over";
+// var rstBtn = document.getElementById("reset");
+// rstBtn.appendChild(resetButton);
+
 
 // var button = document.getElementById("submit");
 // button.addEventListener("click", 
